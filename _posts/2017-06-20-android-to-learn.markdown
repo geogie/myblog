@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Android 常用方法总结"
+title:  "Android 常用方法总结!"
 date:   2017-06-20 19:11:03 +0800
-categories: android
+categories: jekyll update
 ---
-{% highlight bash lineno %}
+
 字符串链接：支持SpannableString
 public static CharSequence concat(CharSequence... text)
 使用：TextUtils.concat("Hello"," ","World!").toString(); -----> Hello World!
-{% endhighlight %}
-{% highlight ruby %}
+
 判断字符串中是否是纯数字：
 public static boolean concat(CharSequence str);
 
@@ -30,4 +29,4 @@ public static boolean isToday（long when）；
 
 返回今天，昨天，日期
 public static CharSequence getRelativeTimeSpanString（long startTime）；
-{% endhighlight %}
+
