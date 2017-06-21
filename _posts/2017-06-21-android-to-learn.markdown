@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android throw Exception"
-date:   2017-06-16 19:11:03 +0800
+date:   2017-06-21 19:11:03 +0800
 categories: android
 ---
 {% highlight bash lineno %}
